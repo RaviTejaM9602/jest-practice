@@ -1,4 +1,4 @@
-export default function stringLength(someString) {
+export function stringLength(someString) {
    if(someString.length >= 1 &&  someString.length < 10 ){
       return someString.length;
    } else
@@ -7,4 +7,6 @@ export default function stringLength(someString) {
    );
 };
 
-
+export function reverseString(string){
+  return string.split('').reverse().join('');
+};
