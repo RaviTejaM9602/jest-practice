@@ -10,3 +10,4 @@ export function stringLength(someString) {
 export function reverseString(string){
   return string.split('').reverse().join('');
 };
+
